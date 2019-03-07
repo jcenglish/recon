@@ -7,7 +7,7 @@ setuptools.setup(
     name='recon-jcenglish',
     version='0.0.1',
     packages=[''],
-    url='',
+    url='https://github.com/jcenglish/recon.git',
     license='',
     author='Jasmine English',
     author_email='contact@jasmineenglish.com',

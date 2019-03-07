@@ -261,10 +261,12 @@ def main():
     account.apply_transactions()
     account.recon_positions()
     account.recon_to_file()
-    
 
-if __name__ == "__main__":
+
+def _test():
     import doctest
-    main()
     doctest.testmod(extraglobs={'account': Account('recon.in')})
 
+
+if __name__ == "__main__":
+    main()
