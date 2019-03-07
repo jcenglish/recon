@@ -263,12 +263,7 @@ def main():
     account.recon_to_file()
 
 
-def _test():
-
-
-
-
 if __name__ == "__main__":
     import doctest
     main()
-doctest.testmod(extraglobs={'account': Account('recon.in')})
+    doctest.testmod(extraglobs={'account': Account('recon.in')})
