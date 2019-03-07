@@ -1,8 +1,8 @@
-####Requirements
+#### Requirements
 
 Recon uses **Data Classes** and requires **Python 3.7**.
 
-####Installation
+#### Installation
 
 With Pip:
 
@@ -14,11 +14,11 @@ Or, clone the source from git and run the setup file:
     $ cd recon-jcenglish
     $ python setup.py install
    
-####Usage
+#### Usage
 
 Recon is run from the command line.
 
-#####To run:
+##### To run:
 
     $ recon-jcenglish
     
