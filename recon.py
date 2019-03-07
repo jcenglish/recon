@@ -264,9 +264,11 @@ def main():
 
 
 def _test():
-    import doctest
-    doctest.testmod(extraglobs={'account': Account('recon.in')})
+
+
 
 
 if __name__ == "__main__":
+    import doctest
     main()
+doctest.testmod(extraglobs={'account': Account('recon.in')})
